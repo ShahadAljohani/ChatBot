@@ -11,8 +11,8 @@ import speech_recognition as sr
 
 
 #Replace these with your actual API keys.
-ELEVENLABS_API_KEY = "sk_e1ac29a8d70a4d1f4bedf145be5a1e537fe2775b558eddd5"
-COHERE_API_KEY = "ASBjwSwuqDNIM5fhbZnxlAofqYIPSWTaVkcK8VjD"
+ELEVENLABS_API_KEY = ""
+COHERE_API_KEY = ""
 
 elevenlabs_client = ElevenLabs(api_key=ELEVENLABS_API_KEY)
 cohere_client = cohere.Client(COHERE_API_KEY)
@@ -109,3 +109,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
